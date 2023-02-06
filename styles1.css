@@ -1,0 +1,218 @@
+.card-body{
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+    padding-right: 28px;
+    }
+    
+    
+.foto1{
+        display: flex;
+        align-items: center;
+}
+
+.foto2{
+        display: flex;
+        align-items: center;
+}
+
+.foto3{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+}
+
+.foto4{
+        display: flex;
+        align-items: center;
+        padding-top: 20PX;
+}
+
+
+
+
+    @media only screen and (max-width:1300px){
+        .foto1 .texto1{
+                position: relative;
+                transform: translate(0,-100%);
+                }
+
+        .foto4 .texto4{
+        position: relative;
+        transform: translate(0,85%);
+        
+        }
+        .foto4 img{
+                transform: translate(0, -135%);
+        }
+
+        .foto2 .texto2{
+                position: relative;
+                transform: translate(0,72%);
+                }
+                .foto2 img{
+                        transform: translate(0, -147%);
+                }
+        .foto3 .texto3{
+position: relative;
+transform: translate(0,100%);
+
+
+        }        
+
+                
+}
+
+       
+
+             
+
+
+    .card{
+    background-color: aqua;
+    
+    
+    }
+    
+    .tarjeta{
+    height: 200px;
+   
+    
+    
+    
+    }
+
+
+    .tarjeta1{
+     height: 200px;
+            
+    }
+
+
+
+
+    
+    .titulo{
+    font-size: 24px;
+    padding: 10px 10px 10px 10px;
+        
+    }
+    
+    .cuerpo{
+        padding: 20px;
+    
+    }
+    
+   
+    
+    .pie1 a::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+    
+    
+    
+    
+    }
+    
+    
+    
+    .muestra{
+display: flex;
+  object-fit: cover;
+    width: 100%;
+    text-align: center;
+   border: 3px solid black;
+   height: 100%;
+   
+    justify-content: center;
+   
+    }
+    .muestra1{
+        border: 3px solid black;
+       
+       margin-top: 20px;
+        }
+
+
+
+
+ 
+
+        .texto1{
+margin-right: 30px;
+margin-left: 250px;
+margin-top: 10px;
+
+        }
+
+
+
+
+
+
+     
+
+
+        
+
+
+        
+        .tarjeta2{
+       
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            width: 420px;
+            border: 5px solid black;
+            border-radius: 15px;
+            font-family: sans-serif;
+            margin-right: 870px;
+        
+                
+        }
+
+        .muestra2{
+            align-items: center;
+    width: 80%;
+    text-align: center;
+   margin-left: 90%;
+   margin-right: 40%;
+
+        }
+
+        .muestra3{
+         
+         border: 3px solid black;
+        
+
+        }
+
+
+        .muestra4{
+border: 3px solid black;
+}
+
+        .texto3{
+margin-left: 1000px;
+margin-top: -500px;
+
+
+
+
+        }
+
+        
+
+        .footer{
+
+width: 80px;
+
+        }
+
+       
+       
