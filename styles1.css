@@ -1,3 +1,5 @@
+
+
 .card-body{
     text-align: center;
     align-items: center;
@@ -48,10 +50,10 @@
 
         .foto2 .texto2{
                 position: relative;
-                transform: translate(0,72%);
+                transform: translate(0,75%);
                 }
                 .foto2 img{
-                        transform: translate(0, -147%);
+                        transform: translate(0, -140%);
                 }
         .foto3 .texto3{
 position: relative;
